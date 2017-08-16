@@ -1,0 +1,99 @@
+/*body{
+	font-family: 'Abel', sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-family: 'Abril Fatface', cursive;
+}*/
+/*Footer*************************/
+
+footer{
+	background: #222;
+	text-align: center;
+}
+footer p
+{
+	text-align: justify;
+}
+
+ul.redes li
+{
+	display: inline-block;
+}
+ul.redes li a
+{
+	color:orange;
+}
+
+.avatar{
+	border: 1px solid orange;
+	border-radius: 50%;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+/*Catálogo*************************/
+
+#products {
+position: relative;
+max-width: 100%;
+width: 100%;
+}
+/*img {
+width: 100%;
+max-width: 100%;
+height: auto;
+}*/
+.white-panel {
+position: absolute;
+background: white;
+box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+padding: 10px;
+overflow: hidden;
+}
+.white-panel h1 {
+font-size: 20px;
+color: red;
+}
+.white-panel h2 {
+font-size: 16px;
+color: green;
+}
+.white-panel P {
+color: black;
+}
+.white-panel h1 a {
+color: #A92733;
+}
+.white-panel:hover {
+box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+margin-top: -5px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.panel {
+background: white;
+}
+
+/*Slider*************************/
+.navbar{
+	/*margin-bottom: 0;*/
+}
+
+/*Carrito************************/
+.table-cart{
+	
+	border-radius: 1em;
+	padding: 1em;
+	margin-bottom: 30px;
+}
+
+.table-cart img
+{
+	width: 50px;
+}
+
+
